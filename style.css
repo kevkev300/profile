@@ -1,0 +1,106 @@
+/*fonts:
+headers: 'Source Sans Pro', sans-serif;
+regular: 'News Cycle', sans-serif;*/
+
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'News Cycle', sans-serif;
+  color: rgb(70, 70, 70);
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(91, 170, 57);
+  line-height: 80%;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(91, 170, 57);
+}
+
+a:hover {
+  opacity: .5;
+}
+
+/*class selectors*/
+.container {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  padding: 30px;
+  margin: 30px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.btn-green {
+  color: white;
+  background-color: rgb(91, 170, 57);
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 20px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.icons-size {
+  font-size: 40px;
+}
+
+#bio p {
+  padding: 0px 0px 20px;
+}
+
+/*making it responsive*/
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
